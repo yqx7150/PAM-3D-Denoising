@@ -1,0 +1,5 @@
+将上一次最新的模型改为exp1,将重新训练一个模型。（使用单通道，使用的是填充的图。）训练集为lzdata/wang1210
+
+CUDA_VISIBLE_DEVICES=0 python main.py --config=configs/ve/SIAT_kdata_ncsnpp.py --workdir=exp --mode=train --eval_folder=result
+
+CUDA_VISIBLE_DEVICES=0

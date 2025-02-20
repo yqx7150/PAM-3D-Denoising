@@ -1,0 +1,5 @@
+2./home/liuqg/wgj/diffusion_gwk713(复件)/controllable_generation.py   重建的过程  可以改保真过程
+/home/liuqg/wgj/diffusion_gwk713(复件)/无标题文档 (0728).md    几个指令
+3./home/liuqg/wgj/diffusion_gwk713(复件)/pc_sampling_pa.py  重建的文件  改重建的input地址
+1./home/liuqg/wgj/diffusion_gwk713(复件)/datasets.py      训练模型改训练集的地址 
+python pc_sampling_pa.py
