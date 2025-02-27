@@ -11,25 +11,25 @@ Copyright 2020, Department of Electronic Information Engineering, Nanchang Unive
 Photoacoustic microscopy (PAM) is characterized by high resolution, high contrast, and deep tissue penetration, making it extensively utilized in the field of biomedical imaging. However, due to factors such as laser pulse energy fluctuations, external environmental interference, and system noise, a significant amount of noise is introduced into the photoacoustic signal during the imaging process. In this research, a denoising approach for PAM images based on the score-based diffusion model is introduced. During the training stage, the diffusion model is employed to learn the prior distribution of noise-free images. In the reconstruction phase, the learned priors serve as constraints to effectively denoise the input PAM images. Specifically, a penalized weighted least-squares (PWLS) term is incorporated into the iterative process to enhance denoising performance. After multiple iterations and solutions, PAM images with a low noise level are reconstructed and generated. The simulation results indicate that, even at a high noise level (e.g., 16 dB), the proposed method achieves average Peak Signal-to-Noise Ratio (PSNR) and Structural Similarity Index Measure (SSIM) values of 35.2 dB and 0.943, respectively. Furthermore, the experimental results indicate that the Contrast-to-Noise Ratio (CNR) of the proposed method is 2.31 times higher than that of the fully dense U-Net (FD-U-Net) model, highlighting its superior denoising performance and enhanced capability to reconstruct high-quality three-dimensional spatial images. It confirms the feasibility of this method for practical applications. This method also provides the possibility for low dose PAM.  
 
 ## Method.
-<div align="center"><img src="https://github.com/yqx7150/PAM-3D-Denoising/Figs/Fig3.tif"> </div>
+<div align="center"><img src="https://github.com/yqx7150/PAM-3D-Denoising/blob/main/Fig3.tif"> </div>
 
 Fig. 3. Flowchart of denoising iterative reconstruction based on the score-based diffusion model.       
     
 ## Results on simulation data.
-<div align="center"><img src="https://github.com/yqx7150/PAM-3D-Denoising/Figs/Fig5.tif"> </div>
+<div align="center"><img src="https://github.com/yqx7150/PAM-3D-Denoising/blob/main/Fig5.tif"> </div>
 
 Fig. 5. The reconstruction process of B-scan images of randomly distributed points and blood vessels using the proposed method. 
 
-<div align="center"><img src="https://github.com/yqx7150/PAM-3D-Denoising/Figs/Fig6.tif"> </div>
+<div align="center"><img src="https://github.com/yqx7150/PAM-3D-Denoising/blob/main/Fig6.tif"> </div>
 
 Fig. 6. The contrast experiments of the FD-U-Net and score-based diffusion models for randomly distributed points are shown as follows. 
 
-<div align="center"><img src="https://github.com/yqx7150/PAM-3D-Denoising/Figs/Fig7.tif"> </div>
+<div align="center"><img src="https://github.com/yqx7150/PAM-3D-Denoising/blob/main/Fig7.tif"> </div>
 
 Fig. 7. The contrast experiments of the FD-U-Net and score-based diffusion models for randomly distributed points are shown as follows. 
 
 ## Results on phantom experiment data.
-<div align="center"><img src="https://github.com/yqx7150/PAM-3D-Denoising/Figs/Fig8.tif"> </div>
+<div align="center"><img src="https://github.com/yqx7150/PAM-3D-Denoising/blob/main/Fig8.tif"> </div>
 
 Fig. 8.   Reconstruction results for the resolution test target and tungsten wire. 
 
